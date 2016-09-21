@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Le Expensiv :: Menu</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="CSS/main.css">
+		<link rel="stylesheet" href="CSS/menu.css">
+		<script type="text/javascript" src="JS/menu.js"></script>
+		<link rel="icon" type="image/x-icon" href="ASSETS/favicon.ico" />
+	</head>
+	<body>
+		<header>
+		</header>
+		<nav>
+			<img id="logo" src="ASSETS/Logo.png" alt="logo">
+			<div class="nav-section" id="desktop">
+				<a href="contact.html">Contact us</a>
+				<a href="about.html">About us</a>
+				<a href="menu.html">Menu</a>
+				<a href="index.html">Home</a>
+			</div>
+			<div class="nav-section" id="mobile">
+				<a href="index.html">Home</a>
+				<a href="menu.html">Menu</a>
+				<a href="about.html">About us</a>
+				<a href="contact.html">Contact us</a>
+			</div>
+		</nav>
+		<main>
+			<div id="menu-nav">
+				<div class="menu-nav-item" id="lunch-dinner" onclick="showLunchDinner()">Lunch & Dinner</div>
+				<div class="menu-nav-item" id="wine" onclick="showWine()">Our Wines</div>
+				<div class="menu-nav-item" id="bar" onclick="showBar()">From the Bar</div>
+			</div>
+			<div class="menu" id="lunch-dinner-menu">
+				<div class="menu-title">Hors d'oeuvre</div>
+				<table>
+					<tr>
+						<td>
+							Escargots à la Bourguignonne<br>
+							<span class="description">Snails in a delicious garlic butter sauce</span>
+						</td>
+						<td class="price">9</td>
+					</tr>
+					<tr>
+						<td>
+							Assiette de Fromages<br>
+							<span class="description">Assortment of savory french cheeses</span>
+						</td>
+						<td class="price">15.5</td>
+					</tr>
+				</table>
+				<div class="menu-title">Les Soupes</div>
+				<table>
+					<tr>
+						<td>
+							Soupe à l'Oignon<br>
+							<span class="description">Onion soup, bread, and swiss cheese</span>
+						</td>
+						<td class="price">8.0</td>
+					</tr>
+					<tr>
+						<td>
+							Soupe du Jour<br>
+							<span class="description">Soup of the day</span>
+						</td>
+						<td class="price">7.5</td>
+					</tr>
+				</table>
+				<div class="menu-title">Entrees</div>
+				<table>
+					<tr>
+						<td>
+							Poulet á la Moutard et au Miel<br>
+							<span class="description">Grilled chicken with honey mustard</span>
+						</td>
+						<td class="price">20.0</td>
+					</tr>
+				</table>
+			</div>
+			<div class="menu" id="wine-menu">
+				<div id="white-wine">
+					<div class="menu-title">White Wines</div>
+					<div class="wine-title">Sparkling</div>
+					<table>
+						<tr>
+							<td></td>
+							<th>Glass</th>
+							<th>Bottle</th>
+						</tr>
+						<tr>
+							<td>
+								Korbel Brut<br>
+								<span class="description">Calfornia</span>
+							</td>
+							<td class="price">10</td>
+							<td class="price">45</td>
+						</tr>
+						<tr>
+							<td>
+								Caposaldo Prosecco<br>
+								<span class="description">Italy</span>
+							</td>
+							<td class="price"></td>
+							<td class="price">60</td>
+						</tr>
+						<tr>
+							<td>
+								Dom Pérignon<br>
+								<span class="description">France</span>
+							</td>
+							<td class="price"></td>
+							<td class="price">250</td>
+						</tr>
+					</table>
+					<div class="wine-title">Chardonnay</div>
+					<table>
+						<tr>
+							<td>
+								Clos Du Bois<br>
+								<span class="description">North Coast</span>
+							</td>
+							<td class="price">7</td>
+							<td class="price">35</td>
+						</tr>
+						<tr>
+							<td>
+								Simi<br>
+								<span class="description">Alexander Valley</span>
+							</td>
+							<td class="price">8</td>
+							<td class="price">40</td>
+						</tr>
+						<tr>
+							<td>
+								Robert Mondavi<br>
+								<span class="description">Napa Valley</span>
+							</td>
+							<td class="price">14</td>
+							<td class="price">45</td>
+						</tr>
+						<tr>
+							<td>
+								Sonoma Cutrer<br>
+								<span class="description">Sonoma Valley</span>
+							</td>
+							<td class="price"></td>
+							<td class="price">50</td>
+						</tr>
+					</table>
+					<div class="wine-title">Sauvignon Blanc</div>
+					<table>
+						<tr>
+							<td>
+								Kenwood<br>
+								<span class="description">Sonoma Valley</span>
+							</td>
+							<td class="price">7</td>
+							<td class="price">25</td>
+						</tr>
+						<tr>
+							<td>
+								Rodney Strong<br>
+								<span class="description">Sonoma Valley</span>
+							</td>
+							<td class="price"></td>
+							<td class="price">30</td>
+						</tr>
+						<tr>
+							<td>
+								Simi<br>
+								<span class="description">Alexander Valley</span>
+							</td>
+							<td class="price">11</td>
+							<td class="price">30</td>
+						</tr>
+						<tr>
+							<td>
+								Franciscan<br>
+								<span class="description">Napa Valley</span>
+							</td>
+							<td class="price"></td>
+							<td class="price">35</td>
+						</tr>
+					</table>
+				</div>
+				<div id="red-wine">
+					<div class="menu-title">Red Wines</div>
+					<div class="wine-title">Cabernet</div>
+					<table>
+						<tr>
+							<td></td>
+							<th>Glass</th>
+							<th>Bottle</th>
+						</tr>
+						<tr>
+							<td>
+								The Show<br>
+								<span class="description">Calfornia</span>
+							</td>
+							<td class="price">8</td>
+							<td class="price">35</td>
+						</tr>
+						<tr>
+							<td>
+								Rodney Strong<br>
+								<span class="description">Sonoma Valley</span>
+							</td>
+							<td class="price">11</td>
+							<td class="price">43</td>
+						</tr>
+						<tr>
+							<td>
+								Saint Francis<br>
+								<span class="description">Sonoma Valley</span>
+							</td>
+							<td class="price">12</td>
+							<td class="price">50</td>
+						</tr>
+						<tr>
+							<td>
+								Simi<br>
+								<span class="description">Alexander Valley</span>
+							</td>
+							<td class="price"></td>
+							<td class="price">50</td>
+						</tr>
+						<tr>
+							<td>
+								Sterling<br>
+								<span class="description">Napa Valley</span>
+							</td>
+							<td class="price"></td>
+							<td class="price">55</td>
+						</tr>
+						<tr>
+							<td>
+								Markham<br>
+								<span class="description">Napa Valley</span>
+							</td>
+							<td class="price"></td>
+							<td class="price">65</td>
+						</tr>
+						<tr>
+							<td>
+								Stags' Leap<br>
+								<span class="description">Napa Valley</span>
+							</td>
+							<td class="price"></td>
+							<td class="price">90</td>
+						</tr>
+						<tr>
+							<td>
+								Chimney Rock<br>
+								<span class="description">Napa Valley</span>
+							</td>
+							<td class="price"></td>
+							<td class="price">130</td>
+						</tr>
+						<tr>
+							<td>
+								Caymus<br>
+								<span class="description">Napa Valley</span>
+							</td>
+							<td class="price"></td>
+							<td class="price">145</td>
+						</tr>
+					</table>
+					<div class="wine-title">Merlot</div>
+					<table>
+						<tr>
+							<td>
+								Blackstone<br>
+								<span class="description">Sonoma Valley</span>
+							</td>
+							<td class="price">7</td>
+							<td class="price">30</td>
+						</tr>
+						<tr>
+							<td>
+								Rodney Strong<br>
+								<span class="description">Sonoma Valley</span>
+							</td>
+							<td class="price">10</td>
+							<td class="price">35</td>
+						</tr>
+						<tr>
+							<td>
+								Markham<br>
+								<span class="description">Napa Valley</span>
+							</td>
+							<td class="price"></td>
+							<td class="price">44</td>
+						</tr>
+						<tr>
+							<td>
+								Sterling<br>
+								<span class="description">Napa Valley</span>
+							</td>
+							<td class="price"></td>
+							<td class="price">50</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="menu" id="bar-menu">
+				<div class="menu-title">Domestic Beer - $5</div>
+				<table>
+					<tr>
+						<td>Budweiser</td>
+					</tr>
+					<tr>
+						<td>Bud Light</td>
+					</tr>
+					<tr>
+						<td>Coors Light</td>
+					</tr>
+					<tr>
+						<td>Michelob</td>
+					</tr>
+					<tr>
+						<td>Michelob Ultra</td>
+					</tr>
+					<tr>
+						<td>Miller Light</td>
+					</tr>
+					<tr>
+						<td>O'Douls (NA)</td>
+					</tr>
+					<tr>
+						<td>Pabst Blue Ribbon</td>
+					</tr>
+					<tr>
+						<td>Samuel Adams</td>
+					</tr>
+					<tr>
+						<td>Yuengling</td>
+					</tr>
+				</table>
+				<div class="menu-title">Imported Beer - $7</div>
+				<table>
+					<tr>
+						<td>Blue Moon</td>
+					</tr>
+					<tr>
+						<td>Corona</td>
+					</tr>
+					<tr>
+						<td>Corona Light</td>
+					</tr>
+					<tr>
+						<td>Dos Equis</td>
+					</tr>
+					<tr>
+						<td>Heineken</td>
+					</tr>
+					<tr>
+						<td>Heineken Light</td>
+					</tr>
+					<tr>
+						<td>Guiness</td>
+					</tr>
+					<tr>
+						<td>Stella Artois</td>
+					</tr>
+				</table>
+				<div class="menu-title">Classic</div>
+					<table>
+						<tr>
+							<td>
+								Bloody Mary<br>
+								<span class="description">Vodka in spicy tomato juice</span>
+							</td>
+							<td class="price">8</td>
+						</tr>
+						<tr>
+							<td>
+								Daiquiri<br>
+								<span class="description">Lemon, Lime, Strawberry</span>
+							</td>
+							<td class="price">7</td>
+						</tr>
+						<tr>
+							<td>
+								Margaritas<br>
+								<span class="description">Lemon, Lime, Strawberry</span>
+							</td>
+							<td class="price">7</td>
+						</tr>
+						<tr>
+							<td>
+								Mojito<br>
+								<span class="description">Rum with muddled mint</span>
+							</td>
+							<td class="price">7</td>
+						</tr>
+				</table>
+				<div class="menu-title">Specialty Drinks</div>
+				<table>
+				<tr>
+						<td>
+							Appletini<br>
+							<span class="description">Vodka and apple juice</span>
+						</td>
+						<td class="price">9</td>
+					</tr>
+					<tr>
+						<td>
+							Gin Rickey<br>
+							<span class="description">Gin with lime juice</span>
+						</td>
+						<td class="price">9</td>
+					</tr>
+					<tr>
+						<td>
+							Mudslide<br>
+							<span class="description">Rum, fruit juice, and grenadine</span>
+						</td>
+						<td class="price">9</td>
+					</tr>
+					<tr>
+						<td>
+							Mudslide<br>
+							<span class="description">Kahlua, Vodka, and Bailey's with chocolate</span>
+						</td>
+						<td class="price">9</td>
+					</tr>
+				</table>
+			</div>
+		</main>
+		<footer>
+			<div id="desktop">Phone: 312-555-1234</div>
+            <div id="mobile">Phone: <a href="tel:312-555-1234">312-555-1234</a></div>
+			<br>
+			<div id="desktop">Email: info@leexpensiv.com</div>
+			<div id="mobile">Email: <a href="mailto:info@leexpensiv.com">info@leexpensiv.com</a></div>
+		</footer>
+	</body>
+</html>

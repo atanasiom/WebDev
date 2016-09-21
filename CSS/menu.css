@@ -1,0 +1,95 @@
+#menu-nav {
+	height: 50px;
+	margin-top: -4px;
+	margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#lunch-dinner {
+	text-decoration: underline;
+}
+
+#lunch-dinner-menu {
+	display: inline;
+}
+
+#wine-menu {
+	display: none;
+    justify-content: space-between;
+}
+
+#bar-menu {
+	display: none;
+}
+
+#white-wine, #red-wine {
+	width: 45%;
+	display: inline-block;
+}
+
+.price, th {
+	text-align: right;
+	width: 80px;
+}
+
+tr {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+table {
+	width: 100%;
+}
+
+.menu {
+	font-size: 1.5em;
+	font-family: Corbel, sans-serif;
+}
+
+.menu-nav-item {
+    width: 33.3%;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	text-align: center;
+    transition: 0.2s;
+}
+
+.menu-nav-item:hover {
+	background-color: #E0E0E0;
+	cursor: pointer;
+    transition: 0.2s;
+}
+
+.menu-title {
+	text-align: center;
+	font-weight: bold;
+    font-size: 1.5em;
+	padding-top: 10px;
+}
+
+.description {
+	font-style: italic;
+	font-size: .75em;
+	margin-left: 30px;
+}
+
+.wine-title {
+	text-align: center;
+	color: crimson;
+    font-size: 1.25em;
+	padding: 10px 0;
+}
+
+@media only all and (max-width: 1080px) {
+	
+	table {
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+	}
+	
+	.menu {
+		font-size: 1.2em;
+	}
+}

@@ -1,0 +1,49 @@
+main {
+	display: flex;
+    justify-content: space-between;
+}
+
+#contact-form, iframe {
+    width: 50%;
+}
+
+p {
+	font-weight: bold;
+	padding: 20px 0;
+	text-align: center;
+}
+
+form {
+    width: 50%; 
+    margin: 0 auto;
+}
+
+label {
+	float: left;
+	display: block;
+	width: 8em;
+	padding-right: 10px;
+}
+
+input, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+
+#mySubmit {
+	margin: 0 auto;
+}
+
+@media only all and (max-width: 1080px) {
+	
+	main {
+		display: block;
+	}
+	
+	#contact-form, iframe {
+		width: 95%;
+	}
+	
+
+	
+}
